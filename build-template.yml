@@ -1,10 +1,2 @@
-parameters:
-  projectName: ''
-  message: ''
-
 steps:
-- script: echo "Project Name is ${{ parameters.projectName }}"
-  displayName: Print Project Name
-
-- script: echo "Message is ${{ parameters.message }}"
-  displayName: Print Message
+- script: echo "My name is Saurav "

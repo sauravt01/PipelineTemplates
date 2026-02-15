@@ -1,4 +1,7 @@
 parameters:
   - name: x
+variables:
+  - name: y
 steps:
   - powershell: echo ${{ parameters.x }}
+  - powershell: echo $(y)

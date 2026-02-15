@@ -1,3 +1,4 @@
-
+parameters:
+  - name: x
 steps:
   - powershell: echo ${{ parameters.x }}
